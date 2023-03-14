@@ -1,0 +1,63 @@
+.contactHeader {
+    width: 100vw;
+    display: flex;
+    justify-content: end;
+    height: 25vh;
+}
+
+.contactText {
+    font-weight: 700;
+    color: white;
+    font-size: 60px;
+}
+
+.contactContainer {
+    height: 90vh;
+    background-color: rgb(128, 146, 172);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    margin: 10px;
+}
+
+.inputTopContainer {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.smallInput {
+    width: 215px;
+    height: 25px;
+}
+
+.inputBottomContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.largeInput {
+    width: 500px;
+    height: 25px;
+}
+
+.headerContainer {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    padding: 50px 50px 0px 0px;
+    color: white;
+    position: absolute;
+}
+
+.contact {
+    background-image: url();
+}
+
+.headerPieces {
+    margin: 10px;
+    font-weight: 600;
+}

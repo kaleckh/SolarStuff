@@ -1,0 +1,42 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    height: 30vh;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+.footerTitle {
+    font-weight: 250;
+    font-size: 25px;
+}
+
+.column {
+    display: flex;
+}
+
+.halfContainer {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.svgContainer {
+    height: 50px;
+    width: 50px;
+}
+
+.logo {
+    height: 150px;
+}
+
+.footerTags {
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.socialsText {
+    font-size: 30px;
+    font-weight: 250;
+}

@@ -1,0 +1,19 @@
+.questionsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.faqTitle {
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.answerContainer {
+    width: 600px;
+}
+
+.close {
+    font-weight: 700;
+    color: rgb(224, 91, 45);
+    cursor: pointer;
+}

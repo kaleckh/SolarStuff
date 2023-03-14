@@ -1,0 +1,161 @@
+:root {
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.p {
+    font-weight: 400;
+    font-size: 38px;
+    width: 100%;
+}
+
+.center {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cont {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.button {
+    background-color: transparent;
+    border: 1px white solid;
+    color: white;
+    margin: 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 70px;
+}
+
+.videoContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginContainer {
+    display: flex;
+    height: 60%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+    height: 40px;
+    background-color: white;
+    color: gray;
+    transition: all 0.3s ease-in-out;
+}
+
+.header {
+    width: 100vw;
+    display: flex;
+    justify-content: end;
+}
+
+.headerContainer {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    padding: 40px 30px 0px 0px;
+    color: white;
+}
+
+.contactHeader {
+    width: 100vw;
+    display: flex;
+    justify-content: end;
+    height: 25vh;
+}
+
+.headerContainer {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    padding: 50px 50px 0px 0px;
+    color: white;
+    position: absolute;
+}
+
+.contactHeader {
+    width: 100vw;
+    display: flex;
+    justify-content: end;
+    background: transparent;
+    height: 13vh;
+}
+
+.pic {
+    background-image: url('/src/media/background.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.headerPieces {
+    margin: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media (width < 1300px) {
+    video {
+        display: none;
+    }
+}
+
+@media (width < 800px) {
+    .headerContainer {
+        width: 50%;
+    }
+}
+
+@media (width < 610px) {
+    .title {
+        font-size: 45px;
+    }
+    .p {
+        font-size: 30px;
+    }
+    .headerContainer {
+        width: 70%;
+    }
+}

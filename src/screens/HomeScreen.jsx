@@ -38,12 +38,6 @@ const HomeScreen = () => {
               >
                 Diy Kits
               </div>
-              <div
-                onClick={() => navigate("/login")}
-                className={styles.logo}
-              >
-                <img className={styles.logo} src={photo} alt="" />
-              </div>
             </div>
           </header>
           <div className={styles.center}>

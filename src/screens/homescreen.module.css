@@ -113,11 +113,9 @@ video {
 
 .headerContainer {
     display: flex;
-    width: 40%;
+    width: 41%;
     justify-content: space-around;
-    padding: 50px 50px 0px 0px;
     color: white;
-    position: absolute;
 }
 
 .contactHeader {
@@ -129,7 +127,7 @@ video {
 }
 
 .pic {
-    background-image: url('/src/media/background.jpg');
+    background-image: url("/src/media/background.jpg");
     background-size: cover;
     width: 100vw;
     height: 100vh;

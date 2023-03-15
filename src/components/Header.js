@@ -28,10 +28,6 @@ export default function Header(props) {
         <div onClick={() => navigate("/diy")} className={styles.headerPieces}>
           Diy Kits
         </div>
-
-        <div className={styles.headerPieces}>
-          <img className={styles.logo} src={photo} alt="" />
-        </div>
       </div>
     </header>
   );

@@ -3,12 +3,13 @@ import videobg from "../media/vid.mp4";
 import styles from "../screens/homescreen.module.css";
 import Header from "../components/Header";
 import { useNavigate } from "react-router-dom";
+import photo from "../media/logo.png";
 
 const HomeScreen = () => {
   const navigate = useNavigate();
   return (
     <div>
-      <div className={`${styles.main} ${styles.pic}` }>
+      <div className={`${styles.main} ${styles.pic}`}>
         <div className={styles.overlay}></div>
         <video src={videobg} autoPlay loop muted />
         <div className={styles.cont}>
@@ -39,9 +40,9 @@ const HomeScreen = () => {
               </div>
               <div
                 onClick={() => navigate("/login")}
-                className={styles.headerPieces}
+                className={styles.logo}
               >
-                Login
+                <img className={styles.logo} src={photo} alt="" />
               </div>
             </div>
           </header>

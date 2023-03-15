@@ -78,6 +78,11 @@ video {
     align-items: center;
 }
 
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
 .button:hover {
     height: 40px;
     background-color: white;

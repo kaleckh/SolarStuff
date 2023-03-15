@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Header.module.css";
 import { useNavigate } from "react-router-dom";
+import photo from "../media/logo.png";
 export default function Header(props) {
   const navigate = useNavigate();
 
@@ -28,8 +29,8 @@ export default function Header(props) {
           Diy Kits
         </div>
 
-        <div onClick={() => navigate("/login")} className={styles.headerPieces}>
-          Login
+        <div className={styles.headerPieces}>
+          <img className={styles.logo} src={photo} alt="" />
         </div>
       </div>
     </header>

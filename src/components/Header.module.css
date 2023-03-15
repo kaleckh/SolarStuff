@@ -17,6 +17,11 @@
     position: absolute;
 }
 
+.logo {
+    height: 25px;
+    width: 25px;
+}
+
 .picture {
     height: 400px;
     object-fit: cover;

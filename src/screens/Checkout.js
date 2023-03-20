@@ -111,7 +111,7 @@ export function Checkout() {
                     method="post"
                     id="cusCreate"
                     autocomplete="off"
-                  >
+                  > 
                     <input
                       type="tel"
                       name="telphone"

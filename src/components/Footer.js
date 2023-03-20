@@ -13,7 +13,6 @@ export default function Footer(props) {
 
   return (
     <div className={styles.footer}>
-      <img className={styles.logo} src={photo} alt="" />
       <div className={styles.exploreContainer}>
         <div className={styles.footerTitle}>Explore</div>
         <div
